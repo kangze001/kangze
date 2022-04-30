@@ -6,8 +6,6 @@ die_1 = Die()
 die_2 = Die(10)
 die_3 = Die(20)
 
-#hello world
-
 results = []
 for roll_num in range(50000):
     result = die_1.roll() + die_2.roll()+die_3.roll()
