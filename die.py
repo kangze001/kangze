@@ -1,6 +1,4 @@
 from random import randint
-import unittest
-
 
 class Die():
 
