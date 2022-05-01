@@ -24,6 +24,8 @@ for eq_dict in all_eq_dicts:
     lons.append(lon)
     lats.append(lat)
     mags.append(mag)
+    
+
 
 data = pd.DataFrame(data=zip(lons, lats, titles, mags),
                     columns=['经度', '纬度', '位置', '震级'])

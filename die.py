@@ -1,7 +1,8 @@
 from random import randint
+import unittest
 
 
-class Die:
+class Die():
 
     def __init__(self, num_sides=6):
         self.num_sides = num_sides
